@@ -1,0 +1,176 @@
+@font-face {
+	font-family: 'PTSans';
+	src: url('fonts/PTSansRegular.woff2') format('woff2'),
+		 url('fonts/PTSansRegular.woff') format('woff');
+	font-weight: normal;
+	font-style: normal;
+  }
+  @font-face {
+	font-family: 'PTSans';
+	src: url('fonts/PTSansItalic.woff2') format('woff2'),
+		 url('fonts/PTSansItalic.woff') format('woff');
+	font-weight: normal;
+	font-style: italic;
+  }
+  @font-face {
+	font-family: 'PTSans';
+	src: url('fonts/PTSansBold.woff2') format('woff2'),
+		 url('fonts/PTSansBold.woff') format('woff');
+	font-weight: bold;
+	font-style: normal;
+  }
+  @font-face {
+	font-family: 'PTSans';
+	src: url('fonts/PTSansBoldItalic.woff2') format('woff2'),
+		 url('fonts/PTSansBoldItalic.woff') format('woff');
+	font-weight: bold;
+	font-style: italic;
+  } 
+/* reset browser styles */
+html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp,small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	vertical-align: baseline;
+}
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1.2;
+}
+ol { 
+	padding-left: 1.4em;
+	list-style: decimal;
+}
+ul {
+	padding-left: 1.4em;
+	list-style: square;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+} 
+/* end reset browser styles */
+/*start layout*/
+html {
+	font-family: PTSans, Arial, sans-serif;
+	font-size: 62.5%;
+	background: rgb(253,248,171);
+  }
+body {
+	background-color: rgb(255,255,255);
+	border: 3px solid rgb(75,75,75);
+	box-shadow: 0 0 15px 5px rgba(44,82,100,.75);
+	max-width: 1000px;
+	margin-top: 20px;
+	margin-left: auto;
+	margin-right: auto;
+}
+.header{
+	background: transparent url(../imgs/bg_header_body.jpg) no-repeat;
+	background-size: cover;
+}
+.header h1 {
+	color: rgb(249,212,120);
+	font-family: "Arial Black", Arial, Helvetica, sans-serif;
+	font-size: 10em;
+	text-shadow: 4px 4px 6px rgba(0,0,0,.75);
+  }
+.header h1 strong {
+	font-size: 150px;
+	color: white;
+	line-height: 1;
+	margin-right: -.6em;
+}
+.header ul{
+		list-style-type:none;
+		padding-top:5px;
+		margin-top:15px;
+		background-color: gold;
+}
+.nav li{
+		display:inline-block;
+		font-size: 2em;
+		color: white;
+		margin-right: 5px;
+}
+ .main {
+		background-color: lightcyan;
+}
+.container{
+	clear: both;
+}
+.container h2 {
+	font: normal 2.5em "Slabo 27px", Garamond, Times, serif;
+	color: rgb(37,76,143);
+	border-bottom: 1px solid rgb(200,200,200);
+	margin-top: 25px;
+}
+.container h3 {
+	color: rgb(241,47,6);
+	font-size: 1.9em;
+	font-weight: bold;
+	text-transform: uppercase;
+	margin-top: 25px;
+	margin-bottom: 10px;
+}
+.container h4{
+	color:gold;
+	font-size:1.3em;
+	font-weight:bold;
+	text-transform: uppercase;
+	margin-top: 25px;
+	margin-bottom: 10px;
+}
+.container h5{
+	color: gold;
+	font-size: .9em;
+	font-weight: bold;
+}
+.container ul{
+	margin: 3px 0 2px 10px;
+	width:auto;
+}  
+.container li{
+	color: rgb(32,126,191);
+	font-size: 1.5em;
+	margin-bottom: 7px; 
+}
+
+  .container p {
+	font-size: .9em;
+	line-height: 1.5;
+	margin-left: 1.5px;
+	margin-right: 0.5px;
+	margin-bottom: 1px;
+  }
+  .container p::first-line {
+	font-weight: bold;
+	color: rgb(153,153,153);
+	}
+article{
+	font-size: 1.5em;
+}
+.footer{
+	background: transparent url(../imgs/bg_footer_body.jpg) no-repeat;
+	margin-top:-.6em;
+}
+.footer .center{
+	padding:10px 0 10px 0;
+}
+/*start upload.html stylesheet*/
+.upload p{
+	margin: 10px 0 5px 0;
+	padding:5px 0 10px 0;
+}
+.upload label{
+	font-size: 1.5em;
+	font-weight: bold;
+	color: black;	
+}
+/*end upload.html stylesheet*/
