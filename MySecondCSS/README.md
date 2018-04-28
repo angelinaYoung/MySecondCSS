@@ -1,2 +1,0 @@
-# MySecondCSS
-Second CSS
